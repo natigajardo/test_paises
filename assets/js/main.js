@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function (e) {
 const obtenerData = async () => {
   try {
     const res = await fetch(
-      "http://api.countrylayer.com/v2/all?access_key=fca840a5f1e641cfdda3dd5a84d5eb2d"
+      "http://api.countrylayer.com/v2/all?access_key=4d4c974c9aa2b66238985eb0e882e997"
     );
     const data = await res.json();
     //console.log(data);
